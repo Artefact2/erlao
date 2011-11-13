@@ -1,0 +1,22 @@
+erlao - Erlang bindings for the libao library
+=============================================
+
+Erlao is licensed under the GNU General Public License, version
+3. Check the COPYING file for more details.
+
+Any feedback, bug reports should be reported on :
+<http://projects.artefact2.com/projects/erlao>
+
+If you need to contact the author, send an email to
+<artefact2@gmail.com>.
+
+Compiling
+=========
+
+To compile the Erlang source files, just run the `make` command. You
+can test it by running the "playraw" demo script.
+
+To generate the EDoc documentation (which is just an Erlang-friendly
+version of the official libao documentation), run `make docs` and
+browse the HTML files in the "docs" directory.
+

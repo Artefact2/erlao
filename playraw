@@ -1,0 +1,3 @@
+#!/bin/sh
+cd $(dirname $0)/ebin
+escript erlao_playraw.beam "$0" "$@"
